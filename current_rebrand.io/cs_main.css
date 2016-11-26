@@ -1,0 +1,240 @@
+@charset "UTF-8";
+/*Background*/
+#background{
+	width:100%;
+	position: absolute;
+	left: 0;
+	top:0;
+}
+/*header bar*/
+header{
+	width:100%;
+	right:0;
+	top:0;
+	height:60px;
+	position: fixed;
+	background: #D3D3D3; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(#D3D3D3, white); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(r#D3D3D3, white); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#D3D3D3, white); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#D3D3D3, rgba(255,255,255,0.5)); /* Standard syntax */
+	border-bottom:1px solid black;
+	z-index:100;
+}
+.button{
+/*background-color:#001fff;*/
+display:inline-block;
+cursor:pointer;
+color:#001fff;
+font-family:"Apercu-medium";
+font-style: medium;
+font-size:12px;
+padding:4px 8px;
+margin-right: 10px;
+margin-top: 8px;
+float: right;
+text-decoration:none;
+}
+.button:hover{
+	color:#D3D3D3;
+}
+/*LOGO positioning*/
+.logo{
+	display:inline-block;
+  width:80px;
+	float:left;
+
+}
+/*MAIN NAVIGATION*/
+/*text styling*/
+nav{
+	font-family:"apercu";
+	font-size:16pt;
+	float:left;
+	width:75%;
+	margin:auto;
+}
+nav li {
+	list-style-type: none;
+  padding-top: 70px;
+  float: left;
+}
+nav li a {
+  display: inline-block;
+	margin: 10px;
+	padding-bottom: 4px;
+  text-decoration: none;
+}
+/*HOVER STYLES*/
+/*nav li:nth-of-type(1):hover {
+  background-image: url('icons/about.svg');
+  background-repeat: no-repeat;
+}
+nav li:nth-of-type(2):hover {
+  background-image: url('icons/exhibitions.svg');
+  background-repeat: no-repeat;
+}
+nav li:nth-of-type(3):hover {
+    background-image: url('icons/projects.svg');
+    background-repeat: no-repeat;
+}
+nav li:nth-of-type(4):hover {
+  background-image: url('icons/collaborate.svg');
+  background-repeat: no-repeat;
+}
+nav li:nth-of-type(5):hover {
+  background-image: url('icons/shop.svg');
+  background-repeat: no-repeat;
+}
+nav li:nth-of-type(6):hover {
+  background-image: url('icons/archive.svg');
+  background-repeat: no-repeat;
+}
+nav li:nth-of-type(7):hover {
+  background-image: url('icons/contact.svg');
+  background-repeat: no-repeat;
+}*/
+/*underline and blue on hover*/
+nav a:hover, .nav_items a:active{
+	  color: #001fff;
+	  text-decoration: none;
+	  box-shadow: inset 0 -2px 0 0 #001fff;
+}
+/*stay underlined and blue on click*/
+nav li a:visited{
+  color:black;
+}
+/*stay blue even if visited link already*/
+li a:visited:hover{
+  color: #001fff;
+}
+p a:visited{
+  color:#001fff;
+}
+/***FOOTER***/
+/*background color and positioning*/
+footer{
+  width: 100%;
+  left:0;	bottom: 0;
+  height:40px;
+  background-color: #D3D3D3;
+  position: fixed;
+}
+/*basic location and contact info*/
+.info{
+  font-family:"apercu-mono";
+  font-size: 8pt;
+  text-align: center;
+}
+/*social media svg links*/
+.favcons{
+  display: inline-block;
+  float:left;
+}
+.favcons li {
+	float: left;
+	text-decoration:none;
+	padding-right:10px;
+	list-style: none;
+}
+.favcons img {
+	height: 20px;
+  width: 20px;
+}
+/**********ABOUT PAGE*********/
+/*main container*/
+.container{
+  position: relative;
+  width: 75%;
+  margin: auto;
+  overflow: scroll;
+}
+/*Large body text for short introduction*/
+h1 {
+		font-family: 'leitura';
+		font-style: normal;
+		font-size: 27pt;
+		line-height: 40pt;
+}
+/*Info like link to google maps*/
+p {
+	font-family:'apercu';
+	font-style: medium;
+	font-size: 22pt;
+}
+/*************Collaborate Page**************/
+/*grid structure*/
+/*format for main categories*/
+.option{
+  display: inline-block;
+  font-family:'apercu';
+  color:black;
+  font-size: 16pt;
+  margin-top:20px;
+}
+/*input main info*/
+.name{
+  display: inline-block;
+  font-family: 'apercu-italic';
+  color: #D3D3D3;
+  box-shadow: inset 0 -2px 0 0 #D3D3D3;
+}
+/*sub input info like phone and email*/
+.sub_info{
+  font-family: "apercu-mono";
+  font-size: 12pt;
+  margin-top:px;
+}
+/*dropdown menu category boxes*/
+.item_box{
+  position:relative;
+  display:inline-block;
+  margin-top:20px;
+  width:150px;
+  height:35px;
+  border: 2px solid black;
+  box-sizing: border-box;
+  text-align: center;
+  padding-top: 3px;
+}
+/*dropdown menu responsive options*/
+.selection{
+  position:relative;
+  display:inline-block;
+  margin-top:20px;
+  width:150px;
+  height:35px;
+  box-sizing: border-box;
+  text-align: left;
+  padding-top: 3px;
+  background-color: #e2e2e2;
+  color: #001fff;
+  font-family:'apercu';
+  font-size: 16pt;
+  border: 2px solid black;
+  margin-left:-2px;
+}
+.drop-arrow{
+  background-image:url('icons/dropdown.svg');
+  float:right;
+}
+/*add attachments like resume and images*/
+.attachment_files{
+  margin-top:10px;
+  width:70px;
+  height:90px;
+  border:2px solid #001fff;
+  align:inline-block;
+}
+/*text within attachment boxes*/
+.attachment_text{
+  font-family:"apercu-mono";
+  font-size:12pt;
+  color:#001fff;
+  text-align: center;
+  margin-top:45%;
+}
+.attachment_files, .attachment_text:hover{
+  cursor:pointer;
+  color:#aabbf2;
+}
