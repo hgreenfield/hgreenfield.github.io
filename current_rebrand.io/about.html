@@ -5,13 +5,23 @@
   <link rel="stylesheet" href="cs_main.css">
 </head>
 <body>
-    <header class="gradient">
-      <div class="logo"><a href="index.html"><img src="icons/logo.svg" alt="Current Space 3d outlined logo"></a></div>
+  <header class="large">
+    <div class="container-button">
+      <div class="logo"><a href="about.html"><img src="icons/logo.svg" alt="Current Space 3d outlined logo"></a></div>
       <div class="button">Become a member</div>
       <div class="button">Buy tickets</div>
-    </header>
-    <div class="container">
-      <nav ul>
+    </div>
+    <div class="container-button">
+      <ul class="favicons">
+        <li><a href="https://www.facebook.com/currentspace/?fref=ts" target="blank"><img src='icons/favicon_fb.svg' alt="favicon link to gallery facebook page"></a></li>
+        <li><a href="http://currentspace.tumblr.com/" target="blank"><img src='icons/favicon_tumblr.svg' alt="favicon link to tumblr page"></a></li>
+        <li><a href="https://twitter.com/currentspace" target="blank"><img src='icons/favicon_twitter.svg' alt="favicon link to twitter page"></a></li>
+        <li class="search">
+        <input type="search" id="search" placeholder="Search..."></li>
+      </ul>
+    </div>
+    <div class="container-nav">
+      <ul class="nav">
         <li><a href="about.html">About</a></li>
         <li><a href="about.html">Exhibitions</a></li>
         <li><a href="about.html">Projects</a></li>
@@ -21,20 +31,13 @@
         <li><a href="about.html">Contact</a></li>
       </nav>
     </div>
-    <div class="container">
+  </header>
+  <div class="container-body">
     <h1>
       <i>Current Space</i> is an artist-run gallery, studio, and a headquarters for cultural production, nourishing an ongoing dialogue between artists, activists, performers, designers, curators, and thinkers. Operating since November 2004, we are committed to showcasing, developing, and broadening the reach of artists locally and internationally.
     </h1>
     <p>We are located <a href="https://www.google.com/maps/place/Current+Gallery+and+Artist+Collective/@39.2947522,-76.6217087,17z/data=!3m1!4b1!4m5!3m4!1s0x89c804a23e505e5f:0xeb7663dc1a017f34!8m2!3d39.2947522!4d-76.61952" target="_blank">here</a></p>
   </div>
-    <!-- <div class="container brown_fill">
-      some more about us!!!!</div>
- -->
-  <footer>
-    <ul class="favcons">
-      <li><a href="https://www.facebook.com/currentspace/?fref=ts" target="blank"><img src='icons/favcon_facebook.svg' alt="favcon link to gallery facebook page"></a></li>
-      <li><a href="http://currentspace.tumblr.com/" target="blank"><img src='icons/favcon_tumblr.svg' alt="favcon link to tumblr page"></a></li>
-      <li class="info">Current Space Gallery | 12–4pm Sa + Sun | 421 N Howard | Baltimore, MD 21201</li>
-    </ul>
-  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script src="nav.js"></script>
 </body>

@@ -6,20 +6,41 @@
 	left: 0;
 	top:0;
 }
+li{
+	list-style: none;
+}
 /*header bar*/
 header{
 	width:100%;
 	right:0;
 	top:0;
-	height:60px;
+	height:;
 	position: fixed;
 	background: #D3D3D3; /* For browsers that do not support gradients */
 	background: -webkit-linear-gradient(#D3D3D3, white); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(r#D3D3D3, white); /* For Opera 11.1 to 12.0 */
+	background: -o-linear-gradient(#D3D3D3, white); /* For Opera 11.1 to 12.0 */
 	background: -moz-linear-gradient(#D3D3D3, white); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(#D3D3D3, rgba(255,255,255,0.5)); /* Standard syntax */
+	background: linear-gradient(#D3D3D3, rgba(255,255,255,)); /* Standard syntax */
 	border-bottom:1px solid black;
 	z-index:100;
+}
+header.large{height: 150px;}
+header.small{margin-top:-100px;}
+header,nav{
+  transition: all 1s;
+  -moz-transition: all 1s; /* Firefox 4 */
+  -webkit-transition: all 1s; /* Safari and Chrome */
+  -o-transition: all 1s; /* Opera */
+}
+/*header bar buttons for tickets and memberships*/
+.container-button{
+	float:right;
+	width:100%;
+	clear:both;
+	height:15px;
+	top:0;
+	right:0;
+	display:inline-block;
 }
 .button{
 /*background-color:#001fff;*/
@@ -29,8 +50,7 @@ color:#001fff;
 font-family:"Apercu-medium";
 font-style: medium;
 font-size:12px;
-padding:4px 8px;
-margin-right: 10px;
+margin-right: 20px;
 margin-top: 8px;
 float: right;
 text-decoration:none;
@@ -38,70 +58,105 @@ text-decoration:none;
 .button:hover{
 	color:#D3D3D3;
 }
+/*basic location and contact info*/
+/*.info{
+  font-family:"apercu-mono";
+  font-size: 8pt;
+  text-align: center;
+}*/
+/*social media svg links*/
+.favicons {
+  display: inline-block;
+	float:right;
+}
+.favicons li {
+	float: left;
+	text-decoration:none;
+}
+.favicons a {
+	width:20px;
+	padding:10px;
+}
+.search input#search{
+	height:20px;
+	width:120px;
+	font-size:10px;
+	font-family:"apercu";
+	border-style: none;
+	padding: 8px;
+	background-color:#DBDBDB;
+	display:inline-block;
+	margin-right:20px;
+	margin-left:20px;
+	float:right;
+	}
 /*LOGO positioning*/
 .logo{
 	display:inline-block;
   width:80px;
 	float:left;
-
 }
 /*MAIN NAVIGATION*/
 /*text styling*/
-nav{
+.container-nav{
+	margin-left:12.5%;
+}
+ul.nav {
 	font-family:"apercu";
 	font-size:16pt;
 	float:left;
-	width:75%;
 	margin:auto;
 }
-nav li {
+/*icons appear on nav hover*/
+ul.nav li {
 	list-style-type: none;
   padding-top: 70px;
   float: left;
-}
-nav li a {
   display: inline-block;
 	margin: 10px;
 	padding-bottom: 4px;
-  text-decoration: none;
+}
+ul.nav a{
+	width:50px;
+	text-decoration:none;
 }
 /*HOVER STYLES*/
-/*nav li:nth-of-type(1):hover {
+ul.nav li:nth-of-type(1):hover {
   background-image: url('icons/about.svg');
   background-repeat: no-repeat;
 }
-nav li:nth-of-type(2):hover {
+ul.nav li:nth-of-type(2):hover {
   background-image: url('icons/exhibitions.svg');
   background-repeat: no-repeat;
 }
-nav li:nth-of-type(3):hover {
+ul.nav li:nth-of-type(3):hover {
     background-image: url('icons/projects.svg');
     background-repeat: no-repeat;
 }
-nav li:nth-of-type(4):hover {
+ul.nav li:nth-of-type(4):hover {
   background-image: url('icons/collaborate.svg');
   background-repeat: no-repeat;
 }
-nav li:nth-of-type(5):hover {
+ul.nav li:nth-of-type(5):hover {
   background-image: url('icons/shop.svg');
   background-repeat: no-repeat;
 }
-nav li:nth-of-type(6):hover {
+ul.nav li:nth-of-type(6):hover {
   background-image: url('icons/archive.svg');
   background-repeat: no-repeat;
 }
-nav li:nth-of-type(7):hover {
+ul.nav li:nth-of-type(7):hover {
   background-image: url('icons/contact.svg');
   background-repeat: no-repeat;
-}*/
+}
 /*underline and blue on hover*/
-nav a:hover, .nav_items a:active{
+ul.nav:hover a:hover, a:active{
 	  color: #001fff;
 	  text-decoration: none;
 	  box-shadow: inset 0 -2px 0 0 #001fff;
 }
-/*stay underlined and blue on click*/
-nav li a:visited{
+/*stay underlined and black on click*/
+ul.nav li a:visited{
   color:black;
 }
 /*stay blue even if visited link already*/
@@ -111,43 +166,16 @@ li a:visited:hover{
 p a:visited{
   color:#001fff;
 }
-/***FOOTER***/
-/*background color and positioning*/
-footer{
-  width: 100%;
-  left:0;	bottom: 0;
-  height:40px;
-  background-color: #D3D3D3;
-  position: fixed;
-}
-/*basic location and contact info*/
-.info{
-  font-family:"apercu-mono";
-  font-size: 8pt;
-  text-align: center;
-}
-/*social media svg links*/
-.favcons{
-  display: inline-block;
-  float:left;
-}
-.favcons li {
-	float: left;
-	text-decoration:none;
-	padding-right:10px;
-	list-style: none;
-}
-.favcons img {
-	height: 20px;
-  width: 20px;
-}
 /**********ABOUT PAGE*********/
 /*main container*/
-.container{
+.container-body{
   position: relative;
   width: 75%;
+	padding-top:200px;
   margin: auto;
   overflow: scroll;
+	font-family: "apercu";
+	font-size: 16px;
 }
 /*Large body text for short introduction*/
 h1 {
@@ -165,25 +193,25 @@ p {
 /*************Collaborate Page**************/
 /*grid structure*/
 /*format for main categories*/
-.option{
-  display: inline-block;
-  font-family:'apercu';
-  color:black;
-  font-size: 16pt;
-  margin-top:20px;
-}
+.name input#search{
+	height:20px;
+	width:120px;
+	font-size:10px;
+	font-family:"apercu";
+	border-style: none;
+	padding: 8px;
+	background-color:#DBDBDB;
+	display:inline-block;
+	margin-right:20px;
+	margin-left:20px;
+	float:right;
+	}
 /*input main info*/
 .name{
   display: inline-block;
   font-family: 'apercu-italic';
   color: #D3D3D3;
   box-shadow: inset 0 -2px 0 0 #D3D3D3;
-}
-/*sub input info like phone and email*/
-.sub_info{
-  font-family: "apercu-mono";
-  font-size: 12pt;
-  margin-top:px;
 }
 /*dropdown menu category boxes*/
 .item_box{
@@ -198,8 +226,7 @@ p {
   padding-top: 3px;
 }
 /*dropdown menu responsive options*/
-.selection{
-  position:relative;
+.drop-button{
   display:inline-block;
   margin-top:20px;
   width:150px;
@@ -214,9 +241,17 @@ p {
   border: 2px solid black;
   margin-left:-2px;
 }
-.drop-arrow{
-  background-image:url('icons/dropdown.svg');
-  float:right;
+.drop-content  {
+	display:none;
+	position:relative;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+.selection .selection-content:hover{
+	display:block;
 }
 /*add attachments like resume and images*/
 .attachment_files{
@@ -237,4 +272,13 @@ p {
 .attachment_files, .attachment_text:hover{
   cursor:pointer;
   color:#aabbf2;
+}
+/* The style we want applied when we scrolled */
+
+.translated-header {
+	transform: translateY(-48px) translateZ(20px);
+}
+
+.not-translated-header {
+	transform: translateY(0) translateZ(20px);
 }
