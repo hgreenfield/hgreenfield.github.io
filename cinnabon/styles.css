@@ -1,0 +1,74 @@
+/* Universal Styles*/
+li{
+  list-style: none;
+  text-decoration: none;
+}
+body{
+  font-family: helvetica, sans-serif;
+  background-color:#63CCC9;
+
+}
+.container {
+  width:50%;
+  padding: 10px;
+}
+/*/////////Responsive Grid///////////*/
+/*Sections*/
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+.col{
+  display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+/*Grouping */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+/*Grid*/
+.span1of2{
+	width: 49.2%;
+}
+.span2of2{
+	width: 100%;
+}
+/*Full width at under 750px */
+@media only screen and (min-width: 650px) {
+	.col {
+		margin: 1% 0 1% 0%;
+	}
+}
+@media only screen and (max-width: 650px) {
+	.container { width: 100%; }
+}
+
+/*/////////
+Dropdown Button
+//////////*/
+/*.dropbtn {
+    cursor: pointer;
+}
+.dropbtn:hover, .dropbtn:focus {
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+.dropdown-content a {
+
+    text-decoration: none;
+    display: block;
+}
+.show {display:block;}*/
