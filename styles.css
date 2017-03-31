@@ -1,74 +1,120 @@
-/* Universal Styles*/
-li{
-  list-style: none;
-  text-decoration: none;
-}
+@import 'font-face.css';
+/* UNIVERSAL STYLES*/
+
 body{
-  font-family: helvetica, sans-serif;
-  background-color:#63CCC9;
+  background-color: #D1D1D1;
+}
+
+.centered-text{
+  text-align: center;
+}
+
+.centered-object{
+  margin-left:auto;
+  margin-right:auto;
+  width:200px;
+}
+/*!!!!*/
+.letter-count {
 
 }
-.container {
-  width:50%;
-  padding: 10px;
+
+.date {
+
 }
+/*!!!!*/
+
+h1{
+  font-family: 'Apercu-mono';
+}
+
+h2{
+  font-family:'Apercu';
+  font-size: 11pt;
+  font-style: normal;
+  font-weight: normal;
+  background: #EFEFEF;
+  padding:6px;
+  margin-top:-14px;
+}
+
+p{
+  font-family: 'Apercu-mono';
+  margin-top:150px;
+}
+
+/*BACKGROUND*/
+header{
+	width:100%;
+	right:0;
+	top:0;
+	height:100px;
+	position: fixed;
+	background: white;
+  display:block;
+}
+
+/*MOBILE STYLES*/
+
+.spacer{
+  height:120px;
+  width: 100%;
+  background: none;
+  display:inline-block;
+}
+
+.wrapper .center {
+  margin-left: auto;
+  margin-right: auto;
+  width:220px;
+}
+
+/*sizes for svg assets*/
+.asset_29{
+  width:29px;
+  margin-left: 30px;
+  margin-top:10px;
+  position:absolute;
+}
+
+.asset_40{
+  width:40px;
+}
+
+.asset_200{
+  width:200px;
+  padding-top:10px;
+  padding-bottom:10px;
+  display: inline-block;
+}
+
+.button{
+  position:fixed;
+  margin-left:15px;
+
+}
+
+/******Reduce size of header on scroll****/
+/*header.large{height: 150px;}
+header.small{margin-top:-100px;}
+header,nav{
+  transition: all 1s;
+  -moz-transition: all 1s; /* Firefox 4 */
+  -webkit-transition: all 1s; /* Safari and Chrome */
+  -o-transition: all 1s; /* Opera */
+}*/
+
+
 /*/////////Responsive Grid///////////*/
-/*Sections*/
-.section {
-	clear: both;
-	padding: 0px;
-	margin: 0px;
-}
-.col{
-  display: block;
-	float:left;
-	margin: 1% 0 1% 1.6%;
-}
-.col:first-child { margin-left: 0; }
-
-/*Grouping */
-.group:before,
-.group:after { content:""; display:table; }
-.group:after { clear:both;}
-.group { zoom:1; /* For IE 6/7 */ }
-
-/*Grid*/
-.span1of2{
-	width: 49.2%;
-}
-.span2of2{
-	width: 100%;
-}
-/*Full width at under 750px */
-@media only screen and (min-width: 650px) {
-	.col {
-		margin: 1% 0 1% 0%;
+/*Grid for mobile*/
+/*Full width at under 650px */
+/*@media only screen and (min-width: 650px) {
+	.container {
+    width: 400px;
+		margin-left: auto;
+    margin-right: auto;
 	}
 }
 @media only screen and (max-width: 650px) {
 	.container { width: 100%; }
-}
-
-/*/////////
-Dropdown Button
-//////////*/
-/*.dropbtn {
-    cursor: pointer;
-}
-.dropbtn:hover, .dropbtn:focus {
-}
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-.dropdown-content {
-    display: none;
-    position: absolute;
-    z-index: 1;
-}
-.dropdown-content a {
-
-    text-decoration: none;
-    display: block;
-}
-.show {display:block;}*/
+}*/
