@@ -7,37 +7,34 @@
 <body>
   <title>Love Note</title>
     <header>
-      <div class="wrapper">
-        <div class="asset_29">
-          <img src="assets/hamburger_menu.svg">
+      <h1 class="centered-text">Love Note</h1>
+        <div class="centered-text negative_spacer">
+          <a href="file:///Users/Hannamae/hgreenfield.github.io/about.html#">About</a>
         </div>
-        <h1 class="centered-text">Love Note</h1>
-        <h2 class="centered-text">
-          <span id="letterCount" class="letter-count"></span>
-          <span id="date" class="date"></span>
-        </h2>
-        <script type="text/html" id='letters'>
-          <% _.each(letters, function(letter, key, list) { %>
-            <div class="letter"><%= letter.text %></div>
-          <% });%>
-        </script>
-        <div id="target"></div>
-        </div>
-    </div>
+      <h2 class="centered-text">
+        <span id="letterCount" class="letter-count"></span>
+        <span id="date"></span>
+      </h2>
   </header>
-  <div class="spacer"></div>
-  <div class="asset_40 button">
+  <div class="refresh">
     <img src="assets/new.svg" alt "new notes button">
   </div>
-  </div>
-  <div class="centered-object">
-    <div class="asset_200">
-      <img src="assets/letter_closed.svg" alt="closed envelope">
-    </div>
-  </div>
+  <div class="spacer_200"></div>
+  <script type="text/html" id='letters'>
+    <% _.each(letters, function(letter, key, list) { %>
+      <div class="wrapper">
+        <div id="letter-<%= key %>" class="asset_200 letter-closed">
+          <%= letter.note %>
+        </div>
+      </div>
+    <% });%>
+  </script>
+  <div id="target"></div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/locale/af.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/locale/af.js"></script> -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.1/underscore-min.js"></script>
-  <script src="bundle.js"></script>
+  <script src="styles.js"></script>
+  <!-- At the very very end, bring this back and use the browserify command -->
+  <!-- <script src="bundle.js"></script> -->
 </body>
 </html>
