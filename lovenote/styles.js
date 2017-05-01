@@ -1,9 +1,9 @@
 // display date
-// var moment = require('moment')
-// var today = new Date();
-// var formattedToday = moment(today).format('dddd, MMMM Do YYYY');
-//
-// $('#date').html(formattedToday)
+var moment = require('moment')
+var today = new Date();
+var formattedToday = moment(today).format('dddd, MMMM Do YYYY');
+
+$('#date').html(formattedToday)
 
 var data = [
   {
@@ -130,9 +130,9 @@ $('#letter-0').mouseleave(
 ///not working//
 
 //on click, switch class to letter-text//
-$('letter-0').click(
+$('#letter-0').click(
   function(){
-    $('letter-0').removeClass("letter-open").addClass("letter-text");
+    $('#letter-0').removeClass("letter-open").addClass("letter-text");
   }
 );
 

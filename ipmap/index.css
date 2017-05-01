@@ -1,0 +1,16 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.pano {
+  float: left;
+  height: 100%;
+  width: 90%;
+}
+.map{
+  width: 90%;
+  margin:auto;
+  height:100%;
+}
