@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.84 37.75">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 1.37px;
+      }
+
+      .cls-1 {
+        stroke-dasharray: 6.85;
+      }
+    </style>
+  </defs>
+  <title>retail</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g>
+        <path class="cls-1" d="M3.19,3s13-4.57,21.09-.9,7.81,11.82-.54,14.6C19.63,18.08.45,15.34.92,27.89c.18,4.72,3.94,8.84,19.56,6.18"/>
+        <g>
+          <line class="cls-2" x1="20.09" y1="30.59" x2="26.48" y2="37.22"/>
+          <line class="cls-2" x1="26.4" y1="30.53" x2="20.18" y2="37.29"/>
+        </g>
+        <ellipse cx="2.64" cy="3.35" rx="2.64" ry="2.62"/>
+      </g>
+    </g>
+  </g>
+</svg>

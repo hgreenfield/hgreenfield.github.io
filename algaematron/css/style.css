@@ -1,0 +1,130 @@
+@import '../assets/_fonts.scss';
+@import '../scss/_reset.scss';
+@import '../scss/_nav.scss';
+
+/*GRID SYSTEM*/
+.page{
+  margin-left: auto;
+  margin-right:auto;
+	margin-top:180px;
+  width: 80%;
+  display: block;
+}
+.section{
+  clear:left;
+  margin-bottom:600px;
+}
+.right{
+  float:right;
+}
+.left{
+  float:left;
+}
+.margin-top-30{
+  margin-top:30px;
+}
+.margin-top-50{
+  margin-top:50px;
+}
+.white-boundary{
+  background-color:white;
+  position:relative;
+  padding: 20px;
+  box-shadow: 0px 0px 2px 2px #a8a8a8;
+  float:left;
+  display:inline-block;
+  margin:10px;
+}
+
+/*FEATURED ELEMENT STYLES*/
+/*.feature-title{
+  font-weight: bold;
+  font-style: italic;
+  font-size: 16pt;
+}*/
+.feature-title img{
+  height:50px;
+}
+
+
+}
+.rotate-left {
+  /* Safari */
+  -webkit-transform: rotate(-30deg);
+  /* Firefox */
+  -moz-transform: rotate(-30deg);
+  /* IE */
+  -ms-transform: rotate(-30deg);
+  /* Opera */
+  -o-transform: rotate(-30deg);
+  /* Internet Explorer */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+.rotate-right{
+  /* Safari */
+  -webkit-transform: rotate(15deg);
+  /* Firefox */
+  -moz-transform: rotate(15deg);
+  /* IE */
+  -ms-transform: rotate(15deg);
+  /* Opera */
+  -o-transform: rotate(15deg);
+  /* Internet Explorer */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+.section-title{
+  font-family: 'GT America';
+  font-weight: bold;
+  font-size: 14pt;
+}
+.caption{
+  font-size: 10pt;
+  color:#a8a8a8;
+  padding-top: 5px;
+}
+/*banners with special info/offers*/
+.banner h1{
+  font-family: 'GT America';
+  font-weight: bold;
+  font-size: 20pt;
+  text-align:center;
+  color:#ff751a;
+  padding-bottom: 30px;
+}
+.banner h1:hover{
+  text-decoration:underline;
+  cursor: pointer;
+}
+/*containers for each section*/
+.feature-container{
+  text-align: center;
+  position:relative;
+}
+/*image carousel*/
+#slideshow {
+  float:right;
+  position: relative;
+  width: 1000px;
+}
+#slideshow > div {
+  position: absolute;
+}
+/*dye samples*/
+.sample_color{
+  height: 80px;
+  width:100px;
+  background-color:blue;
+  margin-right: 8px;
+}
+
+/*INTERACTIVITY*/
+/*fade image or color on hover*/
+.fade {
+   opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   }
+.fade:hover {
+  opacity: 0.5;
+  }

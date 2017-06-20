@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39.73 31.51">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 1.37px;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <title>contact</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g>
+        <rect class="cls-1" x="0.69" y="0.69" width="38.36" height="30.14"/>
+        <polyline class="cls-2" points="0.69 0.69 19.18 19.18 39.05 0.69"/>
+        <line class="cls-2" x1="12.94" y1="13.24" x2="0.69" y2="30.83"/>
+        <line class="cls-2" x1="25.35" y1="13.02" x2="38.97" y2="30.83"/>
+      </g>
+    </g>
+  </g>
+</svg>

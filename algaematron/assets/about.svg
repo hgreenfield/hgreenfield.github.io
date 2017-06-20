@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.61 43.16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 1.37px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>about</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g>
+        <g>
+          <path class="cls-1" d="M27.8.93"/>
+          <path class="cls-1" d="M32.91,4"/>
+          <polygon class="cls-2" points="32.37 7.01 32.91 42.47 0.74 42.47 3.81 3.97 24.74 0.72 32.37 7.01"/>
+        </g>
+        <path class="cls-1" d="M11,30.39S16.5,37.24,22.66,30"/>
+        <ellipse cx="11.52" cy="18.71" rx="1.84" ry="1.82"/>
+        <path class="cls-1" d="M19.63,19.67s3-6.41,5.77.44"/>
+        <polyline class="cls-1" points="24.77 0.9 24.77 7.78 32.19 7.01"/>
+      </g>
+    </g>
+  </g>
+</svg>

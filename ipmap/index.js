@@ -39,14 +39,13 @@ function initialize(latitude = 100, longitude = 100) {
   });
 
   //if street view is available, show. if not, show map.
-    console.log(google.maps.StreetViewStatus.ZERO_RESULTS);
-    if (google.maps.StreetViewStatus.ZERO_RESULTS == "ZERO_RESULTS") {
+    if (google.maps.StreetViewStatus.ZERO_RESULTS !== "ZERO_RESULTS") {
        map.setStreetView(panorama);
-       console.log("cool");
+       console.log("street view ok");
        console.log(fenway);
     }
     else {
-      console.log("idiot");
+      console.log("no street view");
       $("div").removeClass( "pano" ).addClass( "map" );
       $("#pano").empty();
     }

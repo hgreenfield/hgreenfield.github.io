@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43.84 38.36">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 1.37px;
+      }
+    </style>
+  </defs>
+  <title>configurate</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g>
+        <line class="cls-1" x1="3.77" y1="25.4" x2="3.77" y2="38.36"/>
+        <line class="cls-1" x1="3.77" x2="3.77" y2="13.02"/>
+        <line class="cls-1" x1="22.26" y1="34.25" x2="22.26" y2="38.36"/>
+        <line class="cls-1" x1="22.26" x2="22.26" y2="23.29"/>
+        <line class="cls-1" x1="40.08" y1="17.81" x2="40.08" y2="38.36"/>
+        <line class="cls-1" x1="40.08" x2="40.08" y2="6.13"/>
+        <rect y="15.07" width="7.54" height="8.07"/>
+        <rect x="18.5" y="24.66" width="7.54" height="8.07"/>
+        <rect x="36.31" y="8.22" width="7.54" height="8.07"/>
+      </g>
+    </g>
+  </g>
+</svg>
