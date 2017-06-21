@@ -1,20 +1,121 @@
+// GT AMERICA
+@font-face {
+	font-family: 'GT America Compressed';
+	src: url('GTAmerica-CompressedMediumItalic.eot');
+	src: url('GTAmerica-CompressedMediumItalic.eot?#iefix') format('embedded-opentype'),
+		url('GTAmerica-CompressedMediumItalic.woff') format('woff'),
+		url('GTAmerica-CompressedMediumItalic.ttf') format('truetype');
+	font-weight: 500;
+	font-style: italic;
+}
+
 @font-face {
 	font-family: 'GT America';
-	src: url('GTAmerica-Thin.eot');
-	src: url('GTAmerica-Thin.eot?#iefix') format('embedded-opentype'),
-		url('GTAmerica-Thin.woff') format('woff'),
-		url('GTAmerica-Thin.ttf') format('truetype');
-	font-weight: 100;
+	src: url('GTAmerica-Medium.eot');
+	src: url('GTAmerica-Medium.eot?#iefix') format('embedded-opentype'),
+		url('GTAmerica-Medium.woff') format('woff'),
+		url('GTAmerica-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GT America Compressed';
+	src: url('GTAmerica-CompressedBold.eot');
+	src: url('GTAmerica-CompressedBold.eot?#iefix') format('embedded-opentype'),
+		url('GTAmerica-CompressedBold.woff') format('woff'),
+		url('GTAmerica-CompressedBold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GT America Compressed';
+	src: url('GTAmerica-CompressedBlackItalic.eot');
+	src: url('GTAmerica-CompressedBlackItalic.eot?#iefix') format('embedded-opentype'),
+		url('GTAmerica-CompressedBlackItalic.woff') format('woff'),
+		url('GTAmerica-CompressedBlackItalic.ttf') format('truetype');
+	font-weight: 900;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'GT America Compressed';
+	src: url('GTAmerica-CompressedRegularItalic.eot');
+	src: url('GTAmerica-CompressedRegularItalic.eot?#iefix') format('embedded-opentype'),
+		url('GTAmerica-CompressedRegularItalic.woff') format('woff'),
+		url('GTAmerica-CompressedRegularItalic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'GT America Compressed';
+	src: url('GTAmerica-CompressedRegular.eot');
+	src: url('GTAmerica-CompressedRegular.eot?#iefix') format('embedded-opentype'),
+		url('GTAmerica-CompressedRegular.woff') format('woff'),
+		url('GTAmerica-CompressedRegular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GT America Compressed';
+	src: url('GTAmerica-CompressedMedium.eot');
+	src: url('GTAmerica-CompressedMedium.eot?#iefix') format('embedded-opentype'),
+		url('GTAmerica-CompressedMedium.woff') format('woff'),
+		url('GTAmerica-CompressedMedium.ttf') format('truetype');
+	font-weight: 500;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'GT America';
-	src: url('GTAmerica-LightItalic.eot');
-	src: url('GTAmerica-LightItalic.eot?#iefix') format('embedded-opentype'),
-		url('GTAmerica-LightItalic.woff') format('woff'),
-		url('GTAmerica-LightItalic.ttf') format('truetype');
-	font-weight: 300;
+	src: url('GTAmerica-Bold.eot');
+	src: url('GTAmerica-Bold.eot?#iefix') format('embedded-opentype'),
+		url('GTAmerica-Bold.woff') format('woff'),
+		url('GTAmerica-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GT America';
+	src: url('GTAmerica-MediumItalic.eot');
+	src: url('GTAmerica-MediumItalic.eot?#iefix') format('embedded-opentype'),
+		url('GTAmerica-MediumItalic.woff') format('woff'),
+		url('GTAmerica-MediumItalic.ttf') format('truetype');
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'GT America';
+	src: url('GTAmerica-BoldItalic.eot');
+	src: url('GTAmerica-BoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('GTAmerica-BoldItalic.woff') format('woff'),
+		url('GTAmerica-BoldItalic.ttf') format('truetype');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'GT America Compressed';
+	src: url('GTAmerica-CompressedBoldItalic.eot');
+	src: url('GTAmerica-CompressedBoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('GTAmerica-CompressedBoldItalic.woff') format('woff'),
+		url('GTAmerica-CompressedBoldItalic.ttf') format('truetype');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'GT America';
+	src: url('GTAmerica-RegularItalic.eot');
+	src: url('GTAmerica-RegularItalic.eot?#iefix') format('embedded-opentype'),
+		url('GTAmerica-RegularItalic.woff') format('woff'),
+		url('GTAmerica-RegularItalic.ttf') format('truetype');
+	font-weight: normal;
 	font-style: italic;
 }
 
@@ -28,42 +129,12 @@
 	font-style: normal;
 }
 
-@font-face {x
-	font-family: 'GT America';
-	src: url('GTAmerica-Bold.eot');
-	src: url('GTAmerica-Bold.eot?#iefix') format('embedded-opentype'),
-		url('GTAmerica-Bold.woff') format('woff'),
-		url('GTAmerica-Bold.ttf') format('truetype');
-	font-weight: bold;
-	font-style: normal;
-}
-
 @font-face {
 	font-family: 'GT America Compressed';
-	src: url('GTAmerica-CompressedMediumItalic.eot');
-	src: url('GTAmerica-CompressedMediumItalic.eot?#iefix') format('embedded-opentype'),
-		url('GTAmerica-CompressedMediumItalic.woff') format('woff'),
-		url('GTAmerica-CompressedMediumItalic.ttf') format('truetype');
-	font-weight: 500;
-	font-style: italic;
-}
-
-@font-face {
-	font-family: 'GT America Compressed';
-	src: url('GTAmerica-CompressedMedium.eot');
-	src: url('GTAmerica-CompressedMedium.eot?#iefix') format('embedded-opentype'),
-		url('GTAmerica-CompressedMedium.woff') format('woff'),
-		url('GTAmerica-CompressedMedium.ttf') format('truetype');
-	font-weight: 500;
+	src: url('GTAmerica-CompressedBlack.eot');
+	src: url('GTAmerica-CompressedBlack.eot?#iefix') format('embedded-opentype'),
+		url('GTAmerica-CompressedBlack.woff') format('woff'),
+		url('GTAmerica-CompressedBlack.ttf') format('truetype');
+	font-weight: 900;
 	font-style: normal;
-}
-
-// SIZING OPTIONS
-
-/* responsive */
-@media (max-width: 959px) {
-	.page {
-		width: auto;
-		margin: 0;
-	}
 }

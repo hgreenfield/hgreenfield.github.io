@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <head>
   <meta charset='utf-8' name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' href='css/normalize.css'>
   <link rel='stylesheet' href='css/style.css'>
+  <link rel='stylesheet' href='css/module.css'>
+
 </head>
 <body>
   <title>Algae-Matron 3000</title>
   <header class='large'>
-    <a href='index.html'><img src='assets/logo.png' alt='Algae-Matron 3000 logo' class='logo scale-down'></img></a>
       <div class='header-container'>
+        <a href='index.html'><img src='assets/logo.png' alt='Algae-Matron 3000 logo' id='logo'></img></a>
         <ul class='top-nav'>
           <li><a href='configurate'>Configurator</a></li>
           <li><a href='closet.html'>My Closet</a></li>
@@ -15,9 +18,11 @@
           <li><a href='estore.html'>E-Store</a></li>
           <li><a href='about.html'>About</a></li>
           <li><a href='contact.html'>Contact</a></li>
-          <li><input type='search' id='search' placeholder='Add product #'></li>
         </ul>
       </div>
+      <ul class='side-nav'>
+        <li><input type='side-nav' id='search' class='search' placeholder='Search product #'></li></ul>
+      </ul>
       <ul class='side-nav'>
         <li class='greeting'> Hello, Eva!</li>
         <li class='button'><a href='index.html'>My Account</a></li>
@@ -26,28 +31,29 @@
   </header>
   <div class='page'>
       <div class='banner'>
-        <h1>!SCHEDULE YOUR 3D BODY SCAN!</h1>
+        <h1 class='orange'>!SCHEDULE YOUR 3D BODY SCAN!</h1>
+        <div class='banner-img'><img src='assets/science.png'></div>
       </div>
       <!-- section one: featured designers -->
-      <div class='section'>
-        <div class="feature-title left margin-top-30">
+        <div class="feature-title margin-top-20 left">
           <img src="assets/designers.svg">
         </div>
-        <div class="feature-container right">
-          <img src='assets/feature_still.png'>
-          <!-- <div id="slideshow">
-            <div>
-              <img src='assets/feature.png'>
-            </div>
-            <div>
-              <img src='assets/feature02.png'>
-            </div>
-          </div> -->
+        <div class='feature-designer margin-top-20 right'>
+          <img src='assets/isabella.svg'>
         </div>
-      </div>
+        <div class="feature-container left margin-bottom-20">
+          <a href='designers.html'>
+            <img class='image-overlay' src='assets/feature_still.png'>
+          </a>
+          <div class="overlay">
+            <div class="overlay-text">See More</div>
+          </div>
+        </div>
+        <div class=feature-banner>
+          <img src='assets/jkoons.png'>
+        </div>
     <!-- section two: featured dyes -->
-    <div class='section'>
-      <span class="white-boundary">
+      <div class="white-boundary">
         <h1 class="section-title">New Dyes Available</h1>
           <p class="caption">Selected for you based on your dye history</p>
           <div class='sample_color margin-top-30 left'></div>
@@ -56,17 +62,28 @@
           <div class='sample_color margin-top-30 left'></div>
           <div class='sample_color margin-top-30 left'></div>
         </div>
-      </span>
-      <span class="white-boundary">
+      <div class="white-boundary">
         <h1 class= 'section-title'>Install Software Updates</h1>
-      </span>
-      <span class="white-boundary">
+      </div>
+      <div class="white-boundary">
         <h1 class= 'section-title'>Dryer Closet Coming Soon</h1>
-      </span>
-    </div>
-
+      </div>
+</div>
+<div class='bottom-nav'>
+  <ul class='right'>
+     © 2056 ALGAE-MATRON ALL RIGHTS RESERVED
+  </ul>
+  <ul class='left'>
+    <li>Collaborate</li>
+    <li>News</li>
+    <li>About Us</li>
+    <li>FAQ</li>
+    <li>Conditions</li>
+    <li>Contact</li>
+    <li>Locations</li>
+  </ul>
+</div>
   <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
-  <footer>footer links</footer>
   <script src='javascript/nav.js'></script>
   <script src='javascript/carousel.js'></script>
 </body>
