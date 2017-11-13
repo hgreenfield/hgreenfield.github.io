@@ -1,49 +1,117 @@
-.wrapper {
-  display: inline-flex;
-  flex-flow: row wrap;
+body{
+	background-color: #F1F1F1;
 }
 
-/* We tell all items to be 100% width */
-header, main, nav, aside, footer {
-  flex: 1 100%;
+/*NEUTRALIZERS*/
+ul, li, h1, h2, p, a{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
 }
 
-/* We rely on source order for mobile-first approach
- * in this case:
- * 1. header
- * 2. nav
- * 3. main
- * 4. aside
- * 5. footer
- */
-
-/* Medium screens */
-@media all and (min-width: 600px) {
-  /* We tell both sidebars to share a row */
-  .aside { flex: 1 auto; }
+ul{
+	list-style-type: none;
 }
 
-/* Large screens */
-@media all and (min-width: 800px) {
-  /* We invert order of first sidebar and main
-   * And tell the main element to take twice as much width as the other two sidebars
-   */
-  main { flex: 2 0px; }
-
-  .aside-1 { order: 1; }
-  .main    { order: 2; }
-  .aside-2 { order: 3; }
-  .footer  { order: 4; }
+a:hover{
+	cursor: pointer;
+}
+/*GRID*/
+#wrapper-left{
+	width: 14em;
+	float: left;
+	padding-top: 3em;
+	padding-left: 4em;
+	padding-right: 1em;
 }
 
-
-#button_nav{
-  display: inline-block;
-  float:left;
-  height:100px;
+#wrapper-right{
+	float:left;
+	padding-top: 3em;
+	padding-left: 5em;
+	display: inline-block;
 }
 
-h1{
-  font-family: 'ace_liftregular';
-  font-style: normal;
+footer{
+  position: absolute;
+	width:100%;
+	right: 0;
+  bottom: 0;
+  left: 24em;
+  padding: 1rem;
+}
+
+/*FONT STYLES*/
+.maple-reg{
+	font-family: 'maple_regularregular';
+	font-style: normal;
+}
+
+.pt16{
+	font-size: 16pt;
+	letter-spacing: .05pt;
+}
+
+/*regular leading*/
+.lh22{
+	line-height: 22pt;
+}
+
+/*extra leading*/
+.lh25{
+	line-height: 25pt;
+}
+
+/*extra kerning*/
+.k1{
+	letter-spacing: 1pt;
+}
+
+/*seperate blocks of text*/
+.pad_6{
+	padding-top: .6em;
+}
+
+.underline{
+	color: black;
+	text-decoration: none;
+	border-bottom: 2px solid black;
+	-webkit-transition: .5s;
+	transition: .5s;
+}
+
+.underline:hover {
+  border-color: white;
+}
+
+.invert_red, .glow_red{
+	color: black;
+	text-decoration: none;
+	background-color: inherit;
+	/*-webkit-transition: .5s;
+	transition: .5s;*/
+}
+.invert_red:hover{
+	color: white;
+	background-color: #FF0000;
+}
+.glow_red:hover{
+	color: white;
+	text-shadow: 0 0 6px #FF0000;
+}
+/*SIDE NAVIGATION*/
+
+/*TOP NAVIGATION*/
+nav {
+	overflow: hidden;
+	width:100%;
+}
+
+nav h1{
+	padding-left:.5em;
+}
+
+nav ul li {
+float:left;
+padding-right:4em;
 }
