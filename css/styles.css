@@ -99,16 +99,39 @@ main{
 }
 
 footer{
-  position: absolute;
-	right: 0;
-  bottom: 0;
-  left: 24em;
-  padding: 1rem;
+	clear:both;
+	display:block;
+  margin-left: 24.7em;
+	padding-top: 10em;
 }
 
 .clear{
 	clear:both;
 }
+
+.spacer{
+	width: 14em;
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+
+/*seperate blocks of text*/
+.pad_6{
+	padding-top: .6em;
+}
+
+.break3{
+	margin-top: 3em;
+}
+
+.margin-left1{
+	margin-left:1em;
+}
+
+.pad-around2{
+padding:.5em;
+}
+
 /*FONT STYLES*/
 .maple-reg{
 	font-family: 'maple_regularregular';
@@ -122,6 +145,14 @@ footer{
 
 .domaine{
 	font-family: "DomaineDisplay";
+}
+
+.pt10{
+	font-size: 10pt;
+}
+
+.pt12{
+	font-size: 12pt;
 }
 
 .pt16{
@@ -161,11 +192,6 @@ footer{
 	letter-spacing: 1pt;
 }
 
-/*seperate blocks of text*/
-.pad_6{
-	padding-top: .6em;
-}
-
 .red{
 	color:red;
 }
@@ -197,6 +223,11 @@ footer{
 	color: white;
 	text-shadow: 0 0 6px #FF0000;
 }
+
+.bullets{
+	padding-left: 1em;
+	list-style-type: circle;
+}
 /*strike on hover.. for links that dont lead to urls*/
 .strike{
 	text-decoration: none;
@@ -205,6 +236,18 @@ footer{
 .strike:hover{
 	text-decoration: line-through;
 }
+
+.button{
+	border: 2px solid red;
+	color: red;
+	-webkit-transition: .5s;
+	transition: .5s;
+}
+.button:hover{
+	color: white;
+	background-color: #FF0000;
+}
+
 /*hover states for images behind text*/
 /*add to image class*/
 .hidden{
@@ -241,4 +284,15 @@ nav h1{
 nav ul li {
 float:left;
 padding-right:4em;
+}
+
+/*FOOTER NAVIGATION*/
+footer ul li{
+	float:left;
+	padding-right:1em;
+}
+
+footer p{
+	clear:both;
+	padding-top: 1em;
 }
