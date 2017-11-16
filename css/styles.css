@@ -1,5 +1,6 @@
 body{
 	background-color: #F1F1F1;
+	z-index:-2;
 }
 
 /*NEUTRALIZERS*/
@@ -12,9 +13,67 @@ ul, li, h1, h2, p, a{
 ul{
 	list-style-type: none;
 }
-
 a:hover{
 	cursor: pointer;
+}
+
+/*BOUNCING BALL*/
+
+canvas {
+  background-color: #61ab20;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+/*.box {
+  background-color: #61ab20;
+  margin: 0 auto;
+  width: 500px;
+  height: 300px;
+  position: relative;
+  box-shadow: inset 0 0 3px #000;
+  border-radius: 5px;
+  border: 1px solid #111;
+  overflow: hidden;
+}
+.box b {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #3673cf;
+  box-shadow: inset -5px -5px 5px rgba(0,0,0,.6), 15px 15px 2px rgba(0,0,0,.04);
+  position: absolute;
+  -webkit-animation: moveX 3.05s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
+  -moz-animation: moveX 3.05s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
+  -o-animation: moveX 3.05s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
+  animation: moveX 3.05s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
+}*/
+
+@-webkit-keyframes moveX {
+  from { left: 0; } to { left: 480px; }
+}
+@-moz-keyframes moveX {
+  from { left: 0; } to { left: 480px; }
+}
+@-o-keyframes moveX {
+  from { left: 0; } to { left: 480px; }
+}
+@keyframes moveX {
+  from { left: 0; } to { left: 480px; }
+}
+@-webkit-keyframes moveY {
+  from { top: 0; } to { top: 280px; }
+}
+@-moz-keyframes moveY {
+  from { top: 0; } to { top: 280px; }
+}
+@-o-keyframes moveY {
+  from { top: 0; } to { top: 280px; }
+}
+@keyframes moveY {
+  from { top: 0; } to { top: 280px; }
 }
 /*GRID*/
 #wrapper-left{
@@ -32,19 +91,37 @@ a:hover{
 	display: inline-block;
 }
 
+main{
+	float:left;
+	margin-left:24.7em;
+	margin-top: 4em;
+	width: 45em;
+}
+
 footer{
   position: absolute;
-	width:100%;
 	right: 0;
   bottom: 0;
   left: 24em;
   padding: 1rem;
 }
 
+.clear{
+	clear:both;
+}
 /*FONT STYLES*/
 .maple-reg{
 	font-family: 'maple_regularregular';
 	font-style: normal;
+}
+
+.maple-bold{
+	font-family: 'maple_regularbold';
+	font-style:normal;
+}
+
+.domaine{
+	font-family: "DomaineDisplay";
 }
 
 .pt16{
@@ -52,6 +129,20 @@ footer{
 	letter-spacing: .05pt;
 }
 
+.pt20{
+	font-size: 20pt;
+	letter-spacing: .05pt;
+}
+
+.pt22{
+	font-size:22pt;
+	letter-spacing:.05pt;
+}
+
+.pt25{
+	font-size: 25pt;
+	letter-spacing: .1pt;
+}
 /*regular leading*/
 .lh22{
 	line-height: 22pt;
@@ -62,6 +153,9 @@ footer{
 	line-height: 25pt;
 }
 
+.lh30{
+	line-height: 35pt;
+}
 /*extra kerning*/
 .k1{
 	letter-spacing: 1pt;
@@ -72,6 +166,11 @@ footer{
 	padding-top: .6em;
 }
 
+.red{
+	color:red;
+}
+
+/*link formatting and hover states*/
 .underline{
 	color: black;
 	text-decoration: none;
@@ -88,9 +187,8 @@ footer{
 	color: black;
 	text-decoration: none;
 	background-color: inherit;
-	/*-webkit-transition: .5s;
-	transition: .5s;*/
 }
+
 .invert_red:hover{
 	color: white;
 	background-color: #FF0000;
@@ -99,6 +197,35 @@ footer{
 	color: white;
 	text-shadow: 0 0 6px #FF0000;
 }
+/*strike on hover.. for links that dont lead to urls*/
+.strike{
+	text-decoration: none;
+}
+
+.strike:hover{
+	text-decoration: line-through;
+}
+/*hover states for images behind text*/
+/*add to image class*/
+.hidden{
+	display: none;
+}
+
+/*add to text or hover object class*/
+.preview:hover .hidden{
+	display: block;
+	z-index: -1;
+	width:10em;
+	box-shadow: 0 0 10px grey;
+}
+
+/*for selfie sizing on name hover (about page)*/
+.hover-image{
+position:absolute;
+left:2em;
+top: 5.7em;
+}
+
 /*SIDE NAVIGATION*/
 
 /*TOP NAVIGATION*/
