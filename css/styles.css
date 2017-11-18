@@ -12,6 +12,7 @@ ul, li, h1, h2, p, a{
 
 ul{
 	list-style-type: none;
+
 }
 a:hover{
 	cursor: pointer;
@@ -113,6 +114,10 @@ footer{
 	width: 14em;
 	padding-top: 3em;
 	padding-bottom: 3em;
+}
+
+.inline{
+	display:inline-block;
 }
 
 /*seperate blocks of text*/
