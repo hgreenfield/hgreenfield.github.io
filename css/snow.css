@@ -1,0 +1,13 @@
+.snowflakes {
+    top:100px;
+    left:30px;
+    position:absolute;
+    z-index:200;
+    width:10px;
+    height:10px;
+    background:red;
+}
+
+#snow_width{
+  width:200px;
+}

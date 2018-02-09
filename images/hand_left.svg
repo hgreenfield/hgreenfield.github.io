@@ -1,1 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129.54 103.43"><defs><style>.cls-1{fill:#fff;}.cls-1,.cls-2{stroke:#ff2d2e;stroke-miterlimit:10;stroke-width:3px;}.cls-2{fill:none;}</style></defs><title>hand_left</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><g id="Layer_2-2" data-name="Layer 2"><g id="Layer_1-2-2" data-name="Layer 1-2"><path class="cls-1" d="M59,32.81l60,.2s8,2,9,10c0,0,1,7-7,10l-25-.08s4,12-3.05,16c0,0,8,13-3.06,18,0,0,7,13-6.05,15l-31-.1-27-7.09s-16-2.05-20,.93c0,0-9.89-32,.18-54,0,0,5-3,13-2,0,0,26.1-28.91,40.11-33.87,0,0,8-9,16-.95,0,0,6,6-2,14Z"/><line class="cls-2" x1="95.94" y1="52.94" x2="78.94" y2="52.88"/><line class="cls-2" x1="92.88" y1="68.93" x2="79.88" y2="68.88"/><line class="cls-2" x1="89.82" y1="86.92" x2="76.82" y2="86.87"/><line class="cls-2" x1="48.94" y1="51.78" x2="25.93" y2="55.7"/><line class="cls-2" x1="49.88" y1="68.78" x2="28.89" y2="66.71"/><line class="cls-2" x1="51.84" y1="81.79" x2="24.85" y2="79.7"/></g></g></g></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 129.5 103.4" style="enable-background:new 0 0 129.5 103.4;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;stroke:#FF2D2E;stroke-width:6;stroke-miterlimit:10;}
+</style>
+<title>hand_left</title>
+<g id="Layer_2_1_">
+	<g id="Layer_1-2">
+		<g id="Layer_2-2">
+			<g id="Layer_1-2-2">
+				<path class="st0" d="M210.9,37.8L168.7-4.7c0,0-4.2-7.1,0.7-13.4c0,0,4.2-5.7,12-2.1L199-2.6c0,0,5.7-11.3,13.5-9.2
+					c0,0,3.5-14.8,14.9-10.6c0,0,4.2-14.1,14.9-6.3l21.8,22l14.1,24.1c0,0,9.9,12.8,14.8,13.5c0,0-15.6,29.6-38.3,38.1
+					c0,0-5.7-1.4-10.6-7.8c0,0-38.9,2-52.3-4.4c0,0-12,0.7-12-10.6c0,0,0-8.5,11.3-8.5L210.9,37.8z"/>
+				<line class="st0" x1="199.1" y1="-2.5" x2="211" y2="9.5"/>
+				<line class="st0" x1="212.5" y1="-11.7" x2="221.7" y2="-2.4"/>
+				<line class="st0" x1="227.4" y1="-22.2" x2="236.6" y2="-13"/>
+				<line class="st0" x1="231.5" y1="31.5" x2="250.5" y2="45"/>
+				<line class="st0" x1="242.8" y1="18.8" x2="256.2" y2="35.1"/>
+				<line class="st0" x1="250.6" y1="8.3" x2="268.2" y2="28.8"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>
