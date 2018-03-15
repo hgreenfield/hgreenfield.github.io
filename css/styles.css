@@ -12,16 +12,7 @@ ul, li, h1, h2, p, a{
 
 ul{
 	list-style-type: none;
-
 }
-a :hover{
-	cursor: pointer;
-}
-
-/* DOESNT WORK??
-.cursor{
-	cursor: url("images/cursor.png"), default;
-} */
 
 /*A NICE GREEN*/
   /*background-color: #61ab20;*/
@@ -32,23 +23,27 @@ a :hover{
 	float: left;
 	padding-top: 3em;
 	padding-left: 4em;
-	padding-right: 1em;
+	/* padding-right: 1em; */
 }
 
 #wrapper-right{
 	float:left;
 	padding-top: 3em;
-	padding-left: 5em;
+	padding-left: 7em;
+	margin-right: 2em;
 	display: inline-block;
 }
 
 main{
 	float:left;
-	/* margin-left:24.7em; */
+	/* margin-left:18.5em; */
 	display:inline-block;
 	/*width: 45em;*/
 }
 
+.about{
+	margin-left:18.5em;
+}
 footer{
 	clear:both;
 	display:block;
